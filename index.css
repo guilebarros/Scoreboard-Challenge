@@ -1,8 +1,59 @@
 body {
     margin: 0;
+    background: rgb(28, 36, 71);
 }
 
+h3 {
+    font-weight: bold;
+    font-size: 40px;
+}
+
+
 .container {
+
+    margin-top: 68px;
+    color: rgb(238,238,238);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
     display: flex;
     justify-content: space-around;
 }
+
+.container p {
+    margin: 0;
+    padding-top: 10px;
+}
+
+.home-score, .guest-score {
+
+    background: black;
+    width: 155px;
+    height: 120px;
+    font-family: 'Cursed Timer ULiL', sans-serif;
+    color: #F94F6D;
+    font-size: 90px;
+    text-align: center;
+    border-radius: 8px;
+
+    
+}
+.buttons {
+    margin-left: 18px;
+}
+
+.add-points-btns {
+
+ 
+    font-family: 'Cursed Timer ULiL', sans-serif;
+    font-size: 18px;
+    color: #9AABD8;
+    background: none;
+    border-radius: 4px;
+	border: none;
+	padding: 10px 7px;
+	cursor: pointer;
+	outline: inherit;
+    border: 1px solid #9AABD8;
+    margin-top: 15px;
+
+}
+
