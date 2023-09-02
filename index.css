@@ -15,7 +15,7 @@ h3 {
     color: rgb(238,238,238);
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     display: flex;
-    justify-content: space-around;
+    justify-content: space-evenly;
 }
 
 .container p {
